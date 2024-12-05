@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CDN Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- icons de bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/icono.svg" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+  <!--archivo Css -->
+  <link rel="stylesheet" href="style.css">
+  <title>Day</title>
+</head>
+
+<body>
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+      <!-- ícono página principal o inicial -->
+      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+      <span class="material-symbols-outlined px-2 fs-3">
+        rocket_launch
+        </span>
+      <span class="fs-3">Day</span>
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item boton-perfil fw-bold">
+        <a id="boton-perfil" href="#" class="nav-link active perfil" aria-current="page">Perfil</a>
+      </li>
+      <li class="nav-item"><a href="#hanging-icons" class="nav-link">Habilidades</a></li>
+      <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+      <li class="nav-item"><a href="#exposiciones" class="nav-link">Exposiciones</a></li>
+      <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+    </ul>
+  </header>
+  <main>
+    <!-- hero -->
+    <div class="hero">
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4 rounded-circle" src="assets/YO FOTO.jpg" alt="" width="200" />
+        <h1 class="display-5 fw-bold text-body-emphasis">
+          Dayán Mendoza
+        </h1>
+        <!-- Texto Typewriter -->
+        <h2 id="app"></h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Artista Digital y desarrolladora frontend Jr. Me he formado en el campo creativo con el objetivo de desarrollar grandes proyectos con base en las tecnologías interactivas e impulsados por una visión fresca que busca la convergencia de la estética y el quehacer artístico con la materialización de grandes ideas.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="http://www.linkedin.com/in/dayan-mendoza-b80478209/">
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton-cv">
+              Mi CV
+            </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Habilidades -->
+     <div class="caja-habilidades">
+    <div class="habilidades container px-4 py-5" id="hanging-icons">
+      <h2 class="pb-2 border-bottom fw-bold">Habilidades</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square  d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+            <span class="material-symbols-outlined fs-1">
+              computer
+              </span>
+          </div>
+          <div>
+            <h3 class="fs-2 ">Desarrollo Frontend</h3>
+            <p>
+              He creado sitios web responsivos aplicando los conocimientos
+              obtenidos durante el bootcamp de Tecnolochicas PRO
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+            <span class="material-symbols-outlined fs-1">
+              psychology
+              </span>
+          </div>
+          <div>
+            <h3 class="fs-2">Artista Digital</h3>
+            <p>
+              Apasionada por la estética y el impacto visual de la imagen, a través de diferentes técnicas y la convergencia de lo análogo y digital me he formado como profesional en la creación de propuestas con el poder de integrar tus ideales a través de la visualidad.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+
+          <div
+            class="icon-square  d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+            <span class="material-symbols-outlined fs-1">
+              videocam
+              </span>
+          </div>
+          <div>
+            <h3 class="fs-2 ">Desarrolladora de contenido audiovisual</h3>
+            <p>
+             Creadora de contenido audiovisual especializada en video. Me encargo desde la cración hasta la postproducción del material para consolidar proyectos de calidad profesional.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- proyectos -->
+    <div id="proyectos" class="proyectos container mt-5">
+      <h2 class="pb-2 border-bottom fw-bold">Proyectos</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <!-- imagen -->
+            <img class="bd-placeholder-img card-img-top" src="assets/Pinterest clon.png" alt="" />
+            <div class="card-body">
+              <p class="card-text">Clon de Pinterest</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                    <a target="_blank" href="https://pinterest-clon-psi.vercel.app/">Ver</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                    <a target="_blank" href="https://github.com/mxmday/pinterest-clon">Github</a>
+                  </button>
+                </div>
+                <small class="text-body-secondary">HTML, CSS Y JS</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- agregar card -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <!-- imagen -->
+            <img class="bd-placeholder-img card-img-top" src="assets/Basica Web.png" alt="" />
+            <div class="card-body">
+              <p class="card-text">Basic Web</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                    <a target="_blank" href="https://primer-web-tau.vercel.app/">Ver</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                    <a target="_blank" href="https://github.com/mxmday/Primer-Web">Github</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" src="assets/Portafolio Web.png" alt="" />
+            <div class="card-body">
+              <p class="card-text">Portafolio web</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                    <a target="_blank" href="https://portafolio-web-one-beta.vercel.app/">Ver</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                    <a target="_blank" href="https://github.com/mxmday/Portafolio-Web">Github</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Expos -->
+    <div id="exposiciones" class="exposiciones container mt-5">
+      <h2 class="pb-2 border-bottom fw-bold">Exposiciones</h2>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+          <!-- item -->
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <!-- card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/Mu leopoldo.jpg" class="card-img-top rounded-circle" alt="imagen de testimonio">
+                <h5 class="card-title text-center">Transversalidades</h5>
+                <h6 class="card-subtitle text-center mb-1 text-body-secondary">Toluca, 2024</h6>
+                <div class="card-body">
+                  <p class="card-text">En colaboración con la Facultad de Artes de la UAEMéx, se llevo a cabo la exposición de egresados en el Museo Universitario Leopoldo Flores, con sede en ciudad universitaria de la misma institución; el cual durante un mes, fue casa de la pieza titulada "Recuerdos Postúmos".
+                  </p>
+                </div>
+              </div>
+              <!-- fin card -->
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!-- Card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/FOTO3.jpg" class="card-img-top rounded-circle" alt="imagen de testimonio">
+                <h5 class="card-title text-center">La Náusea</h5>
+                <h6 class="card-subtitle text-center mb-1 text-body-secondary">Toluca, 2023</h6>
+                <div class="card-body">
+                  <p class="card-text">En colaboración con el colectivo estudiantil de videoartistas, se expuso el cortometraje "La Náusea" en la galería de gran formato con sede en la Facultad de Artes de la UAEMéx.</p>
+                </div>
+              </div>
+              <!-- fin card -->
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!-- inicio card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/Mu schneider.jpg" class="card-img-top rounded-circle" alt="imagen de testimonio">
+                <h5 class="card-title text-center">Transversalidades</h5>
+                <h6 class="card-subtitle text-center mb-1 text-body-secondary">Malinalco, 2024</h6>
+                <div class="card-body">
+                  <p class="card-text">En colaboracón con la Facultad de Artes de la UAEMéx, se llevó a cabo la exposición de egresados en el Museo Universitario Dr. Luis Mario Schneider, lugar en el que se presentó durante dos meses la pieza de videoarte titulada "Recuerdos Póstumos".</p>
+                </div>
+              </div>
+              <!-- fin card -->
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Contacto -->
+    <div id="contacto" class="px-4 py-5 my-5 text-center">
+      <i class="d-block mx-auto mb-4 fs-1 bi bi-chat-right-text-fill"></i>
+      <h1 class="display-5 fw-bold ">Trabajemos juntos!</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Conoce más sobre mi trabajo a través de mis redes sociales ¡mi portafolio siempre está en constante actualización!</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="mailto:a.dayanmendoza.m@gmail.com">
+            <button id="btn-contacto" type="button" class="btn  btn-lg px-4 gap-3">Escribeme!</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="https://www.linkedin.com/in/dayan-mendoza-b80478209/"
+          class="nav-link px-2 fs-4"><i class="bi bi-linkedin"></i></a></li>
+      <li class="nav-item"><a href="https://github.com/mxmday" class="nav-link px-2 "><i
+            class="bi bi-github fs-4"></i></a></li>
+      <li class="nav-item fs-4"><a href="https://www.instagram.com/mxmdays/" class="nav-link px-2"><i class="bi bi-instagram"></i></a>
+      </li>
+    </ul>
+    <p class="text-center">Creado por Dayán Mendoza en el bootcamp de <a
+        href="https://tecnolochicas.mx/">TecnolochicasPro</a></p>
+  </footer>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- Cdn Typewriter-->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!-- main Js -->
+  <script src="main.js"></script>
+</body>
+
+</html>
